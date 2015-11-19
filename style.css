@@ -1,0 +1,199 @@
+/*Dat lai cau hinh CSS*/
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    list-style-type: none;
+
+}
+#wrapper{
+    width: 100%;
+    background-color: rgba(199, 172, 152, 0.24);
+    float: left;
+    height: auto;
+
+}
+#menu{
+    width: 100%;
+    min-height: 50px;
+    height: auto;
+    float: left;
+}
+#logo{
+    width: 20%;
+    float: left;
+    padding: 20px;
+}
+#logo img{
+    width: 100%;
+}
+ul{
+    float: left;
+    width: 80%;
+}
+ul li{
+    width: 18%;
+    float: left;
+    box-sizing: border-box;
+    text-align: center;
+    margin: 4% auto;
+    height: 100%;
+    font-size: 1.8em;
+    font-family: sans-serif;
+    border-left: 1px solid #cccccc;
+    border-right: 1px solid #cccccc;
+}
+a:hover{
+    color: darkgreen;
+    /*background-color: #cccccc;*/
+}
+
+#banner{
+    width: 100%;
+    float: left;
+    max-height: 400px;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 50px;
+    box-shadow: 0px 3px 5px rgba(0,0,0,0.2);
+}
+#banner #cover {
+    width: 100%;
+    height: auto;
+   
+}
+#avt{
+    position: absolute;
+    bottom: 0px;
+    left: 80px;
+    height: 200px;
+    max-width: 200px;
+    padding: 5px;
+    border: solid 1px #CCCCCC;
+    background: white;
+
+}
+#main-content{
+    float: left;
+}
+#gallery-name{
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 2%;
+    font-size: 2.2em;
+    font-family: sans-serif;
+    border-bottom: solid 1px #cccccc;
+
+    float: left;
+}
+#gallery-name h1{
+    margin-bottom: 1%;
+}
+#sidebar{
+    width: 25%;
+    min-height: 100px;
+    float: left;
+    margin-left: 5%;
+    margin-top: 1.4%;
+}
+#sidebar ul{
+    width: 100%;
+    position: relative;
+    /*border: solid 1px #cccccc;*/
+}
+#sidebar ul li{
+    width: 100%;
+    height: 80px;
+    padding: 15px;
+    /*border: solid 1px #cccccc;*/
+    margin: 0;
+    text-align: center;
+    border-left: solid 15px rgba(43, 113, 199, 0.68);
+    margin-bottom: 2px;
+    background-color: white;
+    padding-top: 25px !important;
+    clear: both;
+    box-shadow: 1px 1px 5px #999;
+}
+#home{
+    position: absolute;
+    top:0px
+}
+#feature{
+    position: absolute;
+    top: 90px;
+}
+#about{
+    position: absolute;
+    top: 180px;
+}
+#contact{
+    position: absolute;
+    top: 270px;
+}
+
+#sidebar ul li:hover{
+    width: 105%;
+    box-shadow: 1px 1px 5px #999;
+    font-size: 1.9em;
+    color: white;
+    background-color: rgba(43, 113, 199, 0.68);
+    border-left: 0px;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+}
+#image-content{
+    width: 65%;
+    height: auto;
+    float: left;
+    margin:0 2.5%;
+
+}
+.item{
+    width:45.33%;
+    margin: 2%;
+    float: left;
+    padding: 15px;
+    border: solid 1px #EFEFEF;
+    transition: all 0.5s;
+    height: 400px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    background-color: white;
+    /*white-space: nowrap;*/
+}
+.item img{
+    width: 100%;
+    height: auto;
+    max-height: 200px;
+}
+.item:hover{
+    border:1px solid #CCC;
+    box-shadow: 1px 1px 5px #999;
+    transition: all 0.5s;
+}
+.item img:hover{
+    opacity: 0.6;
+    transition: all 0.6s;
+}
+.item h2{
+    margin:10px auto;
+    font-family:Lucida Sans Unicode;
+    font-size: 1.8em;
+    }
+.item p{
+    /*line-height: 1.4em;*/
+    margin-bottom: 15px;
+    font-family: "Georgia", Times, serif;
+}
+/*css cho nut back to top*/
+#backtotop{
+    position: fixed;
+    bottom: 10px;
+    right: 20px;
+    animation-duration: 2s;
+}
+#backtotop img{
+    width: 50px;
+}
